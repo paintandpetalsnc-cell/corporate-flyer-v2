@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint & Petals: Corporate Team Building Events</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .logo-size {
+            height: 150px;
+        }
+    </style>
+</head>
+<body class="bg-[#FFFFF0] text-[#642959]">
+
+    <!-- Header -->
+    <header class="w-full bg-white shadow-sm py-4">
+        <div class="container mx-auto px-6 flex items-center justify-center md:justify-between">
+            <!-- Logo Section -->
+            <div class="flex items-center space-x-2">
+                <img src="https://i.imgur.com/qMIJy44.png" alt="Paint & Petals Logo" class="logo-size">
+            </div>
+            <nav class="hidden md:block">
+                <a href="#our-work" class="mx-3 hover:text-[#3a9487] transition-colors">Our Work</a>
+                <a href="#about" class="mx-3 hover:text-[#3a9487] transition-colors">What We Provide</a>
+                <a href="#booking" class="mx-3 hover:text-[#3a9487] transition-colors">Book Now</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="py-16 md:py-24 text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">
+                Ignite Creativity. Cultivate Teamwork.
+            </h2>
+            <p class="mt-4 md:text-xl max-w-2xl mx-auto">
+                Discover a unique team-building experience with our guided mixed media art events,
+                perfect for corporate groups.
+            </p>
+            <div class="mt-8">
+                <a href="#booking" class="inline-block bg-[#3a9487] text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-[#2d736b] transition-colors duration-300 transform hover:scale-105">
+                    Book Your Event Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Work Section -->
+    <section id="our-work" class="py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl font-bold">A Glimpse of Our Work</h3>
+            <p class="mt-2 text-gray-600">See what your team can create together.</p>
+            <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <img src="https://i.imgur.com/tGAa5Gv.jpeg" alt="Example of a completed mixed media art piece from an event." class="w-full rounded-2xl shadow-xl transition-transform hover:scale-105">
+                <img src="https://i.imgur.com/pwbjmdO.jpeg" alt="Guest engaged in the painting process during a mixed media art event." class="w-full rounded-2xl shadow-xl transition-transform hover:scale-105">
+                <img src="https://i.imgur.com/ALMCaCm.jpeg" alt="Guest working on the paper floral arrangement portion of the event." class="w-full rounded-2xl shadow-xl transition-transform hover:scale-105">
+                <img src="https://i.imgur.com/q9M0Rwq.jpeg" alt="A happy group of attendees posing with their completed art pieces." class="w-full rounded-2xl shadow-xl transition-transform hover:scale-105">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl font-bold">What We Provide</h3>
+            <div class="mt-8 grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+                    <h4 class="text-xl font-semibold">All Supplies Included</h4>
+                    <p class="mt-2 text-gray-600">
+                        We bring everything needed for a successful event, from canvases and paints to easels and brushes.
+                    </p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+                    <h4 class="text-xl font-semibold">Expert Guidance</h4>
+                    <p class="mt-2 text-gray-600">
+                        Our skilled instructors provide step-by-step guidance, ensuring a fun and engaging experience for all skill levels.
+                    </p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+                    <h4 class="text-xl font-semibold">Memorable Experience</h4>
+                    <p class="mt-2 text-gray-600">
+                        Teams will bond through creativity, resulting in unique works of art and lasting memories.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="booking" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-6 max-w-2xl">
+            <h3 class="text-3xl font-bold text-center">Ready to Book?</h3>
+            <p class="mt-2 text-center text-gray-600">
+                Fill out the form below and we'll be in touch to discuss your event.
+            </p>
+            <form action="https://formspree.io/f/paintandpetalsnc@gmail.com" method="POST" class="mt-8 bg-white p-8 rounded-2xl shadow-xl">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#3a9487] focus:ring-[#3a9487]">
+                    </div>
+                    <div>
+                        <label for="title" class="block text-sm font-medium text-gray-700">Your Title</label>
+                        <input type="text" id="title" name="title" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#3a9487] focus:ring-[#3a9487]">
+                    </div>
+                </div>
+                <div class="mt-6 grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="company" class="block text-sm font-medium text-gray-700">Company Name</label>
+                        <input type="text" id="company" name="company" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#3a9487] focus:ring-[#3a9487]">
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#3a9487] focus:ring-[#3a9487]">
+                    </div>
+                </div>
+                <div class="mt-6 grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="event-date" class="block text-sm font-medium text-gray-700">Preferred Event Date</label>
+                        <input type="date" id="event-date" name="event-date" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#3a9487] focus:ring-[#3a9487]">
+                    </div>
+                    <div>
+                        <label for="participants" class="block text-sm font-medium text-gray-700">Number of Participants</label>
+                        <input type="number" id="participants" name="participants" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#3a9487] focus:ring-[#3a9487]">
+                    </div>
+                </div>
+                <div class="mt-6">
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                    <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#3a9487] focus:ring-[#3a9487]">
+                </div>
+                <div class="mt-6 text-center">
+                    <button type="submit" class="w-full md:w-auto bg-[#3a9487] text-white font-bold py-3 px-10 rounded-full shadow-lg hover:bg-[#2d736b] transition-colors duration-300">
+                        Submit Inquiry
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center text-sm">
+            <p>&copy; 2025 Paint & Petals. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
